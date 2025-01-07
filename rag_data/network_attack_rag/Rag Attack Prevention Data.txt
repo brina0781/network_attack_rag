@@ -1,0 +1,127 @@
+Computer Worms: Definition & Characteristics
+
+A computer worm is a type of malware known for its ability to spread without human interaction, self-replicating once it enters a device (computer, smartphone, tablet).
+Distinct features: rapid self-replication, spreading across networks or devices.
+Types of Effects
+
+Infestation: Worms can fill storage space and system memory, causing device crashes.
+Infection: Worms can download additional malware or modify/deleting critical files, leaving the device vulnerable.
+Parasitism: Some worms steal vital data by installing backdoor programs or spyware (e.g., WannaCry).
+Symptoms of Infection
+
+Full hard drive, slow performance, missing or hidden files, unrecognized programs, auto-starting programs, irregular browser behavior, unknown emails sent, etc.
+To verify, scan the device using antivirus software.
+Steps to Take After Infection
+
+Isolate the Device: Disconnect from the internet and remove from LAN to prevent further spreading.
+Assess the Spread: Scan other devices for infection and isolate them if necessary.
+Remove the Worm: Use antivirus software to quarantine or remove the worm.
+Specialized Removal Tools: If the worm persists, use a specific worm-removal tool.
+Prevention Tips
+
+Be cautious with email attachments or links from unknown senders; always scan suspicious emails.
+Avoid clicking on pop-up ads or downloading from unknown sources.
+Use a VPN when torrenting to prevent worms from entering through peer-to-peer networks.
+Regularly update software and enable automatic updates to close vulnerabilities.
+Use strong passwords and avoid default ones, especially for routers and devices.
+Encrypt important files to protect sensitive data.
+Computer Viruses
+
+A virus attaches to legitimate programs and spreads when executed, often corrupting files or programs. Unlike worms, viruses need a host program to spread.
+
+Backdoor Attacks: Definition & Characteristics
+
+A backdoor attack occurs when hackers install malware that bypasses standard network security to gain unauthorized access to a system.
+Backdoors grant remote access to critical resources (e.g., databases, file servers), allowing attackers to issue system commands and update malware.
+Backdoor Installation & Detection
+
+Installation: Exploits vulnerable components in web applications.
+Detection: Difficult to detect due to highly obfuscated files.
+Purpose: Commonly used for malicious activities like data theft, server hijacking, website defacing, DDoS attacks, and advanced persistent threats.
+Why Backdoors Are Dangerous
+
+Undetected Access: Backdoor malware can go undetected, mimicking legitimate software, making it difficult to detect.
+Replication: Some backdoors, like worms, can replicate and spread to other systems.
+Built-in Backdoors: Some software developers intentionally create backdoors for maintenance, making them a potential security risk if misused.
+The Threat of Backdoors
+
+Backdoor malware is one of the most commonly encountered types of malware, accounting for 37% of all detected attacks globally (according to Statista).
+These attacks are particularly dangerous because they can be difficult to detect, often giving attackers control over systems.
+Example of a Backdoor Attack
+
+SolarWinds Attack: Hackers used malware to create a backdoor in customers’ IT systems, allowing them to install additional malware for espionage and data theft.
+Preventive Measures
+
+Use Antivirus Solutions: Deploy advanced antivirus software to detect and prevent malware, including trojans, cryptojackers, spyware, and rootkits.
+Network Monitoring: Set up tools to monitor network traffic for suspicious or unauthorized activity that may indicate backdoor access.
+Untrusted Software Detection: Implement software that scans devices for untrusted or unauthorized applications.
+Host Firewall Protection: Ensure each device has a host firewall to prevent unauthorized access from external threats.
+Denial of Service (DoS) Attack: Definition & Impact
+
+Purpose: A DoS attack aims to make systems, networks, or services inaccessible by overwhelming them with traffic or triggering a crash.
+Impact: While direct data theft or loss may not be the goal, the attack can cause financial harm, loss of business, frustrated customers, and reputational damage.
+Statistics: In 2021, there were 3 million DoS attacks in Q1, a 30% increase from the previous year. The pandemic saw a rise in attacks targeting vulnerable organizations.
+Types of DoS Attacks
+
+Volume-Based Attacks: Overwhelm systems with fake traffic (measured in bits per second).
+Protocol/Network-Layer Attacks: Flood networks with packets (measured in packets per second), e.g., SYN floods, Smurf DDoS.
+Application-Layer Attacks: Similar to volume-based attacks, but target applications with malicious requests (measured in requests per second).
+Distributed Denial of Service (DDoS)
+
+Definition: A more dangerous variant where multiple systems are used to launch the attack, making it harder to detect.
+Notable Example: In February 2020, Amazon Web Services fended off a DDoS attack that peaked at 2.3 terabytes per second.
+Difference from DoS: A DDoS attack uses multiple systems (botnets), making it harder to detect and mitigate compared to a DoS attack, which uses just one system.
+Symptoms of DoS Attacks
+
+Unusually slow network performance
+Website unavailability
+Can resemble non-malicious issues like network problems or maintenance.
+Preventive Actions
+
+Monitor and Analyze Network Traffic: Use firewalls or intrusion detection systems to detect unusual traffic and block malicious sources.
+Strengthen Security Posture: Fortify internet-facing devices, install antivirus, configure firewalls, and adopt robust security practices.
+Traffic Monitoring Services: Enroll in services that detect and redirect abnormal traffic, ensuring normal traffic proceeds unhindered.
+DoS Attack Response Plan: Create and regularly practice a disaster recovery plan that includes communication, mitigation, and recovery steps.
+
+
+
+In the context of hacking, a shellcode refers to a small piece of code that is used for exploiting a vulnerability of a software. The name is a node to shellcode’s ability to start a command shell through which the hacker gains the control of the compromised device. In time, the definition of the ‘shellcode’ expanded to encompass any piece of code that can carry out a similar task.
+Often written in machine code, a shellcode can be local or remote. A local shellcode is often opted for by a hacker who has little to no access to the machine but can successfully exploit a vulnerability like a buffer overflow. On the other hand, a remote shellcode is preferred by a hacker who desires to attack the target machine through a local network, remote network or intranet. A vast majority of remote shellcodes employ TCP/IP socket connections.
+Simply put, shellcode injection is a hacking technique where the hacker exploits vulnerable programs. The hacker infiltrates into the vulnerable programs and makes it execute their own code.
+The shellcode injection process consists of three steps:
+1. Crafting the shellcode
+2. Injecting the shellcode
+3. Modifying the execution flow and/or running the shellcode
+To craft the shellcode, the hacker needs to craft a compiled machine code through writing and assembling the code, and extracting bytes from the machine code. For injecting the shellcode, the program is manipulated to take the input and read the external files.
+How can I protect my organization from shellcode injection?
+Often, hackers try to reverse engineer programs to find their vulnerable spots. You can start by making sure that all the vulnerabilities of the software you use are alleviated. In addition, you can also address buffer overflows to make sure that your organization is safe from shellcode injection.
+If you want to make sure that your organization is protected 24/7 and all the vulnerabilities on your security posture are addressed properly, you should take a closer look at our SIEM and SOAR products. They offer tailor made solutions for your cyber security needs and make sure your team's efforts and actions on security is automated against possible attacks.
+To perform reconnaissance before carrying out an attack, hackers must determine how far the target network extends and collect data like open network ports, services running on the ports, and an overall map of the network. At the same time, the hackers also try to stay unnoticed during the entire reconnaissance process.
+Determine the Scope of the Target Network
+The individual attacking your business likely knows the scale of your network because they’ve done the research. Also, an attacker needs to determine how much ground the attack will cover. Do they plan to target the entire network, infiltrating it gradually, or do they just want to target a particular subnet? The reconnaissance process requires an attacker to get very specific about their goals so they’re more effective when they actually launch the attack.
+Locate Open Ports & Access Points
+When a threat actor is examining a target network, they’ll look for open ports — where network traffic isn’t being evaluated thoroughly or dropped — and catalog them. They’ll also make note of any other access points, like endpoints that aren’t properly configured or secured. Internet of Things devices often don’t support security updates, so they’re one of the weakest parts of an enterprise network’s security. Threat actors may use IoT devices as an access point.
+Identify Services on the Ports
+Threat actors will also want to know which services correspond with which port. This gives them a better sense of direction when developing an attack strategy. If they perform port scanning techniques and learn which service resides on a particular network port, they don’t have to waste time figuring that out during an active attack. If their initial reconnaissance is successful, this also decreases the chance of being discovered during the attack.
+
+
+Reconnaissance Approaches: Active vs. Passive
+
+Active Reconnaissance: Attackers directly engage with the system (e.g., ping probes, port scanning, traceroute). It is riskier because it’s easier for the target to detect.
+Passive Reconnaissance: Attackers collect data indirectly without directly engaging with the system (e.g., OSINT, Google dorks, WHOIS, packet sniffing). It is stealthier and harder to detect.
+Protecting Against Reconnaissance
+
+Perform Internal Reconnaissance: Assess your network, website, and physical security to identify vulnerabilities visible to attackers.
+Configure Firewalls: Set up rules to detect and block activities like port scanning and packet sniffing. Audit rules for conflicts.
+Network Segmentation: Divide your network into subnets with verification at every entry point to limit lateral movement.
+Monitor Network Traffic: Use network monitoring tools to detect abnormal traffic patterns and reconnaissance attempts.
+Intrusion Detection & Prevention Systems (IDPS): Implement IDPS for threat detection and prevention. Combine both detection and prevention for better security.
+Vulnerability Scanning: Use scanning tools to identify and patch security gaps in networks, applications, and endpoints.
+Regular Security Assessments: Conduct regular security assessments and penetration tests to uncover vulnerabilities.
+Employee Education: Regularly train employees on security risks, including recognizing reconnaissance tactics and insider threats.
+Top 4 Reconnaissance Prevention Tools
+
+ThreatConnect (Threat Intelligence): Provides threat intelligence with automated alerts, integrations with other security tools, and mapping threats to MITRE ATT&CK.
+Rapid7 ThreatCommand: A threat intelligence platform for detecting reconnaissance.
+Cynet AutoXDR: Offers extended detection and response capabilities, including deception technology.
+Acalvio ShadowPlex: Provides deception technologies like honeypots to trap attackers.
